@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExamenAndroid</string>
+    <string name="menu_text">Plantas</string>
+    <string name="submenu_plant">****</string>
+</resources>

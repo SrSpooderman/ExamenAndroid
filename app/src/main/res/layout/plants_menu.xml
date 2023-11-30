@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#24EF70"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/Menu_Text"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="@string/menu_text"
+        android:background="#217E44" />
+
+    <LinearLayout
+        android:id="@+id/Layout_LanzaGuisantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="@drawable/borderbackground">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            android:src="@mipmap/peashooter_foreground" />
+
+        <TextView
+            android:id="@+id/LanzaGuisantes_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="LanzaGuisantes" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Layout_Girasol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/borderbackground"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="69dp"
+            android:layout_weight="1"
+            android:src="@mipmap/girasol_foreground" />
+
+        <TextView
+            android:id="@+id/Girasol_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Girasol" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Layout_MelonPulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/borderbackground"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:src="@mipmap/melonpulta_foreground" />
+
+        <TextView
+            android:id="@+id/MelonPulta_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MelonPulta" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Layout_Cactus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/borderbackground"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="83dp"
+            android:layout_weight="1"
+            android:src="@mipmap/foreground_cactus" />
+
+        <TextView
+            android:id="@+id/Cactus_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cactus" />
+
+    </LinearLayout>
+</LinearLayout>
